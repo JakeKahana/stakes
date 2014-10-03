@@ -1,0 +1,52 @@
+<head>
+  <title>The Stakes</title>
+</head>
+
+<body>
+  {{> loading}}
+  {{> header}}
+  {{> randoms}}
+  {{> createbet}}
+  {{> dashboard}}
+</body>
+
+<template name="loading">
+	<div id="loading">
+		<center>
+  			<img src="../images/loading_coin.gif" width="30%">
+  		</center>
+  	</div>
+</template>
+<template name="header">
+	<div id="header" class="hidden">
+		<img src={{dienumber}} class="headerbutton">
+		<img src="../images/headerlogo.gif" class="logo">
+	</div>
+</template>
+
+
+<template name="randoms">
+	<div id="randoms" class="hidden">
+			<div id="stakes">
+			<p id="directions">
+				Swipe right for new stakes.
+			</p>
+			<p id="dare">
+			</p>
+		</div>
+	
+		<div id="button" class="hidden">
+			<a id="newbetbutton" href="#">Start New Bet</a>
+		</div>
+	</div>
+</template>
+
+<template name="createbet">
+	<div id="createbet" class="hidden">
+		What kind of bet is it?
+	</div>
+</template>
+
+<template name="dashboard">
+
+</template>
