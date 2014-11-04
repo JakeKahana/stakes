@@ -7,6 +7,7 @@
   {{> header}}
   {{> randoms}}
   {{> createbet}}
+  {{> addstakes}}
   {{> dashboard}}
 </body>
 
@@ -28,6 +29,8 @@
 <template name="randoms">
 	<div id="randoms" class="hidden">
 			<div id="stakes">
+			<h3>The Loser Has To</h3>
+  						{{thestake}}
 			<p id="directions">
 				Swipe right for new stakes.
 			</p>
@@ -41,12 +44,23 @@
 	</div>
 </template>
 
+
 <template name="createbet">
 	<div id="createbet" class="hidden">
 		What kind of bet is it?
 	</div>
 </template>
 
-<template name="dashboard">
+<template name="addstakes">
+	<div id="addstakes">
+		<form id="insertnew">
+			<input type="text" id="textinput" temp="The loser has to...">
+			<input type="submit" value="Submit" id="submitstakes"> 
+		</form>
+	</div>
+</template>
 
+<template name="dashboard">
+	<div id="dashboard" class="hidden">
+	</div>
 </template>
