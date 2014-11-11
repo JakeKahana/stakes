@@ -1,0 +1,48 @@
+<head>
+  <title>The Stakes</title>
+</head>
+
+<body>
+	{{> header}}
+  	{{> punishments}}
+
+
+</body>
+
+<template name="header">
+	<div id="header">
+		<img src={{dienumber}} class="headerbutton">
+		<img src="../images/headerlogo.gif" class="logo">
+	</div>
+</template>
+
+
+<template name="punishments">
+	<div id="punishments">
+		Loser Has To:
+		{{randoms.action}}
+	</div>
+</template>
+
+
+
+
+<!--<template name="createbet">
+	<div id="createbet" class="hidden">
+		What kind of bet is it?
+	</div>
+</template>
+
+<template name="addstakes">
+	<div id="addstakes">
+		<form id="insertnew">
+			<input type="text" id="textinput" temp="The loser has to...">
+			<input type="submit" value="Submit" id="submitstakes"> 
+		</form>
+	</div>
+</template>
+
+<template name="dashboard">
+	<div id="dashboard" class="hidden">
+	</div>
+</template>-->

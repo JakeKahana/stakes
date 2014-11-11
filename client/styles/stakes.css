@@ -2,6 +2,9 @@ body{
 	background-color: #990d1b
 }
 
+.current_template{
+	display: block;
+}
 
 #loader{
 	border-radius: 4px;
@@ -9,7 +12,7 @@ body{
 	background-color: #990d1b;
 }
 
-#stakes{
+#punishments{
 	background-color: #6b1812;
 	margin-left: 80px auto;
 	margin-right: 80px auto;
@@ -26,9 +29,7 @@ body{
 	font-size: 45px;
 	color: #fff;
 }
-#addstakes{
-	display: none;
-}
+
 #button{
 	background-color: #6b1812;
 	color: #bc6665;
@@ -62,12 +63,12 @@ body{
 	color: #6b1812;
 }
 
-.hidden{
+/*.hidden{
 	display: none;
-}
-.shown{
+}*/
+/*.shown{
 	display: block;
-}
+}*/
 #header{
 	background-color: #6b1812;
 	width: 100%;

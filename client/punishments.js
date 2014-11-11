@@ -1,0 +1,1 @@
+Punishments = new Mongo.Collection("punishments");

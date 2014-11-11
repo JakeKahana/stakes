@@ -5,6 +5,6 @@
   // "Text Your Most Recent Ex",
   // "Be the DD for the entire next weekend",
   // "Send a nude selfie to the person the winner chooses",
-  // "Wax their junk entirely",
+  // "Wax your junk entirely",
   // "Make an announcement on the train",
   // "Kiss a stranger",

@@ -1,5 +1,4 @@
-Meteor.publish('actions', function(){
-	observeSubscription(this, 'actions', function(){
-		return Punishments.find();
-	})
-});
+Meteor.publish("punishments", function(){
+    return Punishments.find({});
+})
+
